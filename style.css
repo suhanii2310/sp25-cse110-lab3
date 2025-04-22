@@ -51,14 +51,14 @@
   nav a {
     text-decoration: none;
     color: darkblue;
-    padding: 8px 12px;
-    border: 1px solid transparent;
+    padding: 2px 2px;
+    border: 1px solid #e4ece500;
     transition: all 0.3s ease;
   }
   
   nav a:hover {
-    border-bottom: 2px solid var(--secondary-accent);
-    background-color: rgba(255, 255, 255, 0.4);
+    border: 0.1px solid var(--secondary-accent);
+    background-color: rgb(7 67 17 / 40%);
   }
   
   /* ========== SECTIONS ========== */
