@@ -6,7 +6,7 @@
     --heading-font: 'Lato', sans-serif;
   }
   
-  /* ========== GLOBAL STYLES ========== */
+  /* ==========STYLES ========== */
   body {
     background-color: ivory; /* Named color */
     color: var(--text-color, #000);
@@ -141,7 +141,7 @@
     background-color: #388e3c;
   }
   
-  /* ========== PSEUDO-CLASSES ========== */
+
   nav a:focus {
     outline: 2px dashed orange;
   }
@@ -159,7 +159,7 @@
     font-style: italic;
   }
   
-  /* ========== 2023 SELECTOR (EXPERIMENTAL) ========== */
+  /* ==========SELECTOR ========== */
   form:has(textarea:focus) {
     border: 2px solid var(--secondary-accent);
   }
